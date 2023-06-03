@@ -1,0 +1,249 @@
+<html>
+
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Gloock&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+
+        <title>Manongdo_Chap3-Lab</title>
+
+    </head>
+
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        .jumbotron{
+            background-color: #C19191;
+            width: 100%;
+        }
+        h1{
+            font-family: 'Gloock', serif;
+        }
+
+        h3{
+            font-family: 'Playfair Display', serif;
+        }
+
+        th{
+        background-color: #835858;
+        color: black;
+        text-align: center;
+        font-family: 'Domine', serif;
+        font-size: 18px;
+        }
+
+        .table{
+            text-align: center;
+            font-family: 'Domine', serif;
+            border color: #3E3838;
+        }
+        tr:hover td:hover{
+            background-color: #61876E ;
+        }
+
+
+    </style>
+
+    <body style="background: #EAE7D9;">
+
+        <div class="jumbotron text-center" id="jumb">
+
+            <h1 id="heady1">Laboratory Exercise Chapter #3 </h1>
+            <h3 id="heady2">Manongdo, Jee Anne A. <br>2ITMWS01</h3>
+            <br>
+            <button class="btn btn-success" id="button1">Change text</button>
+            <button class="btn btn-primary" id="button2">Change html</button>
+            <br><br>
+            <input type="text" id="input1">
+            <br><br>
+            <button class="btn btn-primary" id="button3">Change val</button>
+            <button class="btn btn-warning" id="button4">Change attribute</button>
+            <button class="btn btn-info" id="button5">Add before</button>
+            <button class="btn btn-default" id="button6">Add after</button>
+            <br><br>
+       
+        </div> 
+        <hr style="height:2px;border-width:0;color:gray;background-color:#40513B;">
+        <br>
+    
+        <div class="container text-center">
+
+                 <button class="btn btn-danger" id="button7">Remove</button>
+                 <br><br><br>
+
+                <div class="table-responsive">
+                    <table class=" table table-bordered" id="table1">
+                        <thead>
+                            <tr> 
+                                <th>Student Number</th>
+                                <th>Last Name</th>
+                                <th>First Name</th>
+                                <th>Course</th>
+                                <th>Year Level</th>
+                                <th>Section</th>
+                                <th>Classification</th>
+                                <th>Units</th>
+                                <th>Status</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            <tr>
+                                <td>2021302478</td>
+                                <td>Manongdo</td>
+                                <td>Jee Anne</td>
+                                <td>BS Information Technology</td>
+                                <td>Second Year</td>
+                                <td>2ITMWS01</td>
+                                <td>Irregular</td>
+                                <td>23</td>
+                                <td>Continuing</td>
+                            </tr>
+
+                            <tr>
+                                <td>2021302579</td>
+                                <td>Tadeo</td>
+                                <td>Patricia</td>
+                                <td>BS Information Technology</td>
+                                <td>First Year</td>
+                                <td>2ITMWSO1</td>
+                                <td>Regular</td>
+                                <td>22</td>
+                                <td>Continuing</td>
+                            </tr>
+
+                            <tr>
+                                <td>2021302376</td>
+                                <td>Manongdo</td>
+                                <td>Jenalyn</td>
+                                <td>BS Information Technology</td>
+                                <td>First Year</td>
+                                <td>1ITMWS01</td>
+                                <td>Regular</td>
+                                <td>25</td>
+                                <td>Continuing</td>
+                            </tr>
+
+                            <tr>
+                                <td>2021302167</td>
+                                <td>Mesa</td>
+                                <td>Kiara Anne</td>
+                                <td>BS Information Technology</td>
+                                <td>Second Year</td>
+                                <td>2ITMWSO1</td>
+                                <td>Regular</td>
+                                <td>24</td>
+                                <td>Continuing</td>
+                            </tr>
+
+                            <tr>
+                                <td>2021303268</td>
+                                <td>Espina</td>
+                                <td>Mckenzie</td>
+                                <td>BS Information Technology</td>
+                                <td>Second Year</td>
+                                <td>2ITMWSO1</td>
+                                <td>Regular</td>
+                                <td>25</td>
+                                <td>Continuing</td>
+                            </tr>
+
+                            <td>2021302909</td>
+                                <td>Santos</td>
+                                <td>Zildjian Kyle</td>
+                                <td>BS Information Technology</td>
+                                <td>FirstYear</td>
+                                <td>2ITMWSO1</td>
+                                <td>Iregular</td>
+                                <td>20</td>
+                                <td>Continuing</td>
+
+                            <tr>
+                                <td>2021305269</td>
+                                <td>Capili</td>
+                                <td>Wesley</td>
+                                <td>BS Information Technology</td>
+                                <td>Second Year</td>
+                                <td>2ITMWSO1</td>
+                                <td>Irregular</td>
+                                <td>18</td>
+                                <td>Continuing</td>
+                            </tr>
+
+                             <tr>
+                                <td>2021305465</td>
+                                <td>Pascual</td>
+                                <td>Jeffrey</td>
+                                <td>BS Information Technology</td>
+                                <td>Second Year</td>
+                                <td>2ITMWSO1</td>
+                                <td>Regular</td>
+                                <td>22</td>
+                                <td>Continuing</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+        </div>    
+
+
+
+
+
+    </body> 
+
+<script type="text/javascript">
+$(document).ready(function(){
+
+$("#button1").click(function(){
+    $("#heady1").text("Chapter#7 - Laboratory Exercise");
+    $("#heady2").text("Objectives: Apply the jQuery HTML");
+
+});
+
+$("#button2").click(function(){
+    $("#heady1").html("<u>Chapter#7 - Laboratory Exercise</u>");
+    $("#heady2").html("<i>Objectives: Apply the jQuery HTML</i>");
+
+});
+
+$("#button3").click(function(){
+    $("#input1").val("<3 <3 <3");
+
+});
+
+$("#button4").click(function(){
+    var align = $("#input1").val();
+    $("#heady1").attr("align",align);   
+    $("#heady2").attr("align",align);
+});
+
+$("#button5").click(function(){
+    $("#heady1").before("<h3><3 <3 <3</h3>");
+  
+});
+
+$("#button6").click(function(){
+    $("#heady1").after("<h3><3 <3 <3</h3>");
+  
+}); 
+
+$("#button7").click(function(){
+    $("#table1").remove();
+  
+}); 
+
+}); 
+
+</script>)
+
+</html>
